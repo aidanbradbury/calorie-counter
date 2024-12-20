@@ -28,7 +28,7 @@ def set_Goal():
                 user_input = input("Would you like to set a calorie goal? (yes/no): ").lower().strip()
                 if user_input=="yes":
                     try:
-                        goal=int(input("Enter your daily calorie goal: ").strip())
+                        goal=int(input("Enter Your daily calorie goal: ").strip())
                         f.write(f"{goal}\n")
                         print("Calorie Goal saved.")
                         break
